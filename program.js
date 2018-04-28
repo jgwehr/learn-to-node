@@ -1,11 +1,9 @@
 //load file module
-var fs = require('fs')
+var fs = require('fs');
 
-var bufFileContents = fs.readFileSync(process.argv[2])
+var bufFileContents = fs.readFile(process.argv[2], 'utf8', function(err, data){
+  if (err) throw err;
 
-//count of lines
-var lines = bufFileContents.toString().split('\n').length-1
-
-
-//Adjust for test
-console.log(lines)
+  var lines = data.split('\n').length-1;
+  console.log(lines);
+});
