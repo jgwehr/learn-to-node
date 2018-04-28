@@ -28,5 +28,7 @@ build/Release
 node_modules
 
 
-# Heroku environment vars
-.env
+# Local Development
+*.env
+*.dev
+.DS_Store
