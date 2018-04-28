@@ -4,8 +4,22 @@
   "version": "1.0.0",
   "description": "Learning the Basics",
   "main": "index.js",
-  "repository": "git@github.com:jgwehr/learn-to-node.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jgwehr/learn-to-node.git"
+  },
   "author": "jgwehr <dm.nota@gmail.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jgwehr/learn-to-node/issues"
+  },
+  "homepage": "https://github.com/jgwehr/learn-to-node#readme",
+  "devDependencies": {},
+  "keywords": [
+    "learning"
+  ]
 }
