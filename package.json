@@ -1,7 +1,5 @@
 {
-  "dependencies": {
-    "bootstrap": "4.1.0"
-  },
+  "dependencies": {},
   "name": "learn-to-node",
   "version": "1.0.0",
   "description": "Learning the Basics",
