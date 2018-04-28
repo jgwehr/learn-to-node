@@ -1,5 +1,17 @@
-var sum = 0;
-for (var i = 2; i < process.argv.length; i++) {
-  sum += Number(process.argv[i])
-}
-console.log(sum)
+//load file module
+var fs = require('fs')
+
+//Path to the File to Read
+var strPathToFile = process.argv[2]
+
+//Buffer
+var bufFileContents = fs.readFileSync(strPathToFile)
+
+//String
+var strfileContents = bufFileContents.toString()
+
+//Array of strings
+var strAfileContents = strfileContents.split('\n')
+
+//Adjust for test
+console.log(strAfileContents.length-1)
