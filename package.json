@@ -1,7 +1,7 @@
 {
   "dependencies": {},
   "name": "learn-to-node",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Learning the Basics",
   "main": "index.js",
   "repository": {
