@@ -21,3 +21,5 @@ app
 
 
   .listen(PORT, () => console.log(`Listening on ${ PORT }`))
+
+console.log(`NODE_ENV=${process.env.NODE_ENV}`);
