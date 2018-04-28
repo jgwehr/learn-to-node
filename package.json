@@ -1,5 +1,7 @@
 {
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.16.3"
+  },
   "name": "learn-to-node",
   "version": "0.1.0",
   "description": "Learning the Basics",
