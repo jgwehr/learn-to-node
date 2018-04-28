@@ -1,17 +1,11 @@
 //load file module
 var fs = require('fs')
 
-//Path to the File to Read
-var strPathToFile = process.argv[2]
+var bufFileContents = fs.readFileSync(process.argv[2])
 
-//Buffer
-var bufFileContents = fs.readFileSync(strPathToFile)
+//count of lines
+var lines = bufFileContents.toString().split('\n').length-1
 
-//String
-var strfileContents = bufFileContents.toString()
-
-//Array of strings
-var strAfileContents = strfileContents.split('\n')
 
 //Adjust for test
-console.log(strAfileContents.length-1)
+console.log(lines)
