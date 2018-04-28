@@ -1,0 +1,8 @@
+{
+  "name": "Learning how to use node and new javascript stuff",
+  "description": "LEarning",
+  "repository": "https://github.com/jgwehr/learn-to-node",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+  "keywords": ["learning"],
+  "image": "heroku/nodejs"
+}
